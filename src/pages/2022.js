@@ -2,8 +2,6 @@ import Aside from '../components/Aside'
 import HeadLinks from '../components/HeadLinks'
 import DevProjects from '../components/DevProjects'
 import ProjectsDev2022 from '../components/DevProjects/Projects2022'
-import nextI18nextConfig from '../../next-i18next.config'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Projects() {
   return (
@@ -21,17 +19,4 @@ export default function Projects() {
       </div>
     </>
   )
-}
-
-export async function getStaticProps({ locale }) {
-
-  return {
-    props: {
-      ...(await serverSideTranslations(
-        locale,
-        ['common'],
-        nextI18nextConfig
-      )),
-    },
-  }
 }

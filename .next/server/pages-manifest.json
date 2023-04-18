@@ -2,5 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/2021": "pages/2021.js",
+  "/2023": "pages/2023.js",
+  "/": "pages/index.js",
   "/2022": "pages/2022.js"
 }

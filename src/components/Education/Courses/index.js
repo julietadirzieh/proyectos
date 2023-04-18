@@ -1,6 +1,5 @@
-import React from 'react'
+/* import React from 'react'
 import Course from '../Course'
-import { useTranslation } from 'next-i18next'
 
 const Courses = () => {
     const { t } = useTranslation('education')
@@ -16,4 +15,4 @@ const Courses = () => {
     )
 }
 
-export default Courses
+export default Courses */

@@ -1,14 +1,13 @@
 
 import React from 'react'
 import Skills from './Skills';
-import { useTranslation } from "next-i18next"
 import Title from '../Title';
 
 const DevSkills = () => {
-    const { t } = useTranslation()
+
     return (
         <>
-            <Title caption={t("skills")} />
+            {/*             <Title caption={t("skills")} /> */}
             <div className='mt-4 mb-8'>
                 <Skills />
                 <div className='mt-6 grid grid-cols-2'>

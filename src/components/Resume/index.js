@@ -2,15 +2,13 @@ import Image from 'next/image';
 import React from 'react'
 import DataLinks from './DataLinks';
 import DataLink from './DataLinks/DataLink';
-import { useTranslation } from 'next-i18next'
 import ContactLink from './ContactLinks/ContactLink';
 import ContactLinks from './ContactLinks';
 
 const Resume = () => {
-    const { t } = useTranslation('home')
     return (
-        <>
-            <div className="grid grid-cols-1 md:grid-cols-3 px-12 md:px-0 md:justify-center mt-2 gap-4 items-center">
+        {/*  <>
+               <div className="grid grid-cols-1 md:grid-cols-3 px-12 md:px-0 md:justify-center mt-2 gap-4 items-center">
                 <Image
                     src="/images/julieta.jpeg"
                     alt="Picture of the author"
@@ -39,7 +37,7 @@ const Resume = () => {
                     src="/icons/telefono.svg"
                 />
             </ContactLinks>
-        </>
+        </> */}
 
     )
 }

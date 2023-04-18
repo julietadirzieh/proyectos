@@ -1,22 +1,18 @@
 import Image from "next/image";
-import { useTranslation } from "next-i18next";
 import NavLink from "./NavLink";
-import Translations from "../Translations/Translations";
 import ContactLink from "../Resume/ContactLinks/ContactLink"
 import ContactLinks from "../Resume/ContactLinks"
 
 const Aside = () => {
-    const { t } = useTranslation('common')
     return (
         <aside className="bg-gray-100 md:w-[220px] md:h-[500px] md:flex-shrink-0 md:mx-0 md:px-0 text-center rounded-xl p-4">
-            <Translations />
             <div className="text-center text-violet md:text-base text-xs uppercase my-auto">
                 <Image
                     src="/icons/logoviolet.png"
                     alt="logo"
                     height={50}
                     width={50}
-                    className="items-center align-middle mx-auto"
+                    className="items-center align-middle mx-auto mt-12"
                 />
                 <h1
                     className="bg-violet uppercase p-2 mt-2 text-white rounded shadow-lg border border-transparent hover:shadow-lg transition duration-500"
